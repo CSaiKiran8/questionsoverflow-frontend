@@ -12,6 +12,6 @@ if (token) {
   var username = parseJwt(token).username
 }
 
-const apiUrl = 'http://localhost:5000';
+const apiUrl = 'https://questions-overflow.herokuapp.com';
 
 export { apiUrl, useremail, username, token };
